@@ -1,0 +1,529 @@
+/* Index */
+
+.logo{
+    width: 80px; 
+    height:70px;
+}
+
+#BackgroundNav{
+    background-color: white !important;
+}
+.Menu{
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+.Resaltar{
+    color: red;
+}
+.Resaltarblue{
+    color: blueviolet;
+}
+.piepagina{
+    background-color: rgb(92, 78, 78);
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.botonescontacto{
+    background-color: transparent;
+    border: 0px;
+}
+
+.contacto-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+  
+
+
+.Ensanchardiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .contacto-paragraph {
+    margin-top: 10px;
+    margin-left: 50px;
+    font-size: large !important;
+  }
+  
+  .botones-container {
+    display: flex;
+    gap: 10px;
+    margin-right: 30px;
+  }
+  
+
+.botones{
+    background-color: white !important;
+    border: 1px !important;
+    border-color: black !important;
+    color: black !important;
+    font-weight: bold !important;
+    box-shadow: 5px 5px 10px gray !important;
+    /* Para el redondeado */
+    border-radius: 5px !important;
+    margin: 5px !important; 
+}
+
+.custom-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    position: relative;
+}
+.card{
+    width: auto;
+    height: auto;
+    background: white;
+    /* Para la sombra */
+    box-shadow: 5px 5px 10px gray;
+    /* Para el redondeado */
+    border-radius: 5px;
+    margin: 5px; 
+}
+.card-title{
+    margin-left: 30px;
+    padding-top: 15px;
+}
+.card-image{
+    display: flex;
+    justify-content: center;
+}
+.card-image img{
+    width: 75%;
+}
+
+.tablet{
+    display: none;
+}
+
+.tablev{
+    display: block;
+}
+
+.sec2{
+    margin-top: 50px;
+}
+.videos{
+    width: 420px;
+    height: 340px;
+}
+
+
+/* Store */
+
+.secciones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15% !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50%; /* Ajusta la altura según tus necesidades */
+    background-color: white /* Color de fondo, puedes cambiarlo según tus preferencias */
+}
+
+.aumentarbotones{
+    width: 77px !important;
+}
+
+.custom-containers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80% !important;
+    position: relative;
+    justify-content: center;
+    margin-left: 300px !important;
+}
+.cards {
+    /* width: auto; */
+    width: 50%;
+    height: auto;
+    background: white;
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.card-images {
+    display: flex;
+    justify-content: center;
+}
+
+.card-images img {
+    width: 80%;
+}
+
+/* Estilos para el título */
+.titulo {
+    margin: 0;
+    padding-top: 15px;
+    text-align: center;
+}
+.tipos{
+    text-align: left !important;
+    margin-left: 350px;
+}
+
+
+/* Museo */
+
+.museosec{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.carou{
+    width: 100% !important;
+    display: flex !important;
+    margin: 0% !important;
+}
+
+
+/* Index Titulo */
+
+#video-container {
+    position: relative;
+    z-index: 1;
+}
+
+  #carousel-text {
+    font-size:100px;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    z-index: 2;
+    margin-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+  .carouse-text{
+    font-size: 45px !important;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+/* Media querys */
+
+
+@media (max-width:834px){
+
+    /* Index */
+
+    #carousel-text {
+        font-size:40px;
+        position: absolute;
+        top: 50%;
+        left: 20%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        z-index: 2;
+        margin-top: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .custom-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        width: 95%;
+        position: relative;
+    }
+    .tablet{
+        display: block;
+    }
+    .tabletv{
+        display: none;
+    }
+    .sec2{
+        margin-top: 10px;
+    }
+    .custom-container-videos {
+        display: grid !important;
+        grid-template-columns: 1fr 1fr 1fr !important;
+        justify-content: center;
+        align-items: center;
+        width: 95%;
+        position: relative;
+        margin-bottom: 30px !important;
+        margin-top: 20px !important;
+    }
+    .videos{
+        width: 275px;
+        height: 155px;
+    }
+
+    /* Store */
+
+    .tipos{
+        text-align: left !important;
+        margin-left: 200px;
+    }
+    .custom-containers {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80% ;
+        position: relative;
+        justify-content: center;
+        margin-left: 150px !important;
+    }
+    .secciones {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 15%;
+        position: fixed;
+        top: 0;
+        left: 20px;
+        height: 50%; /* Ajusta la altura según tus necesidades */
+        background-color: white /* Color de fondo, puedes cambiarlo según tus preferencias */
+    }
+
+    /* Museo */
+    .carou{
+        width: 100% !important;
+        display: flex !important;
+        margin: 0% !important;
+    }
+
+    .caro-img{
+        width: 100%;
+    }
+}
+
+/* Contacto */
+
+.contac-cel{
+    width:50px; 
+    height:50px;
+}
+
+@media (max-width:430px){
+
+    /* Index */
+
+    .navbar-cel{
+        width: 100% !important;
+    }
+    .logo{
+        width: 60px; 
+        height: 50px;
+    }
+    .contac-cel{
+        width:30px; 
+        height:30px;
+    }
+      .contacto-paragraph {
+        margin-top: 10px;
+        margin-left: 20px;
+        font-size:small !important;
+    }
+    .copyy{
+        font-size: medium !important;
+    }
+    .carouse-text{
+        font-size: small !important;
+    }
+
+    #carousel-text {
+        font-size:20px;
+        position: absolute;
+        top: 50%;
+        left: 20%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        z-index: 2;
+        margin-top: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .custom-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+        width: 95%;
+        position: relative;
+    }
+    .tablet{
+        display: block;
+    }
+    .celv{
+        display: none;
+    }
+    .sec2{
+        margin-top: 10px;
+    }
+    .custom-container-videos {
+        display: grid !important;
+        grid-template-columns: 1fr 1fr !important;
+        justify-content: center;
+        align-items: center;
+        width: 95%;
+        position: relative;
+        margin-bottom: 30px !important;
+        margin-top: 20px !important;
+    }
+    .videos{
+        width: 100%;
+    }
+
+    /* Store */
+
+    .tipos{
+        text-align: left !important;
+        margin-left: 110px;
+    }
+    .custom-containers {
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        align-items: center;
+        width: 80%;
+        position: relative;
+        justify-content: center;
+        margin-left: 80px !important;
+    }
+    .colum{
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+    }
+    .secciones {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 15%;
+        position: fixed;
+        top: 0;
+        left: 20px;
+        height: 50%; /* Ajusta la altura según tus necesidades */
+        background-color: white /* Color de fondo, puedes cambiarlo según tus preferencias */
+    }
+
+    .cards {
+        width: 100%;
+        height: auto;
+        background: white;
+        box-shadow: 5px 5px 10px gray;
+        border-radius: 5px;
+        margin: 5px;
+    }
+    
+    /* Museo */
+    .carou{
+        width: 100% !important;
+        display: flex !important;
+        margin: 0% !important;
+        
+    }
+
+    .caro-img{
+        width: 100%;
+    }
+
+    .espa{
+        margin-bottom: 50px !important;
+    }
+}
+
+/* Login */
+
+.image-container {
+    flex: 1;
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .logolog {
+    width: 50%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+
+  .login-container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+
+  .login-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  .form-group label {
+    font-weight: bold;
+  }
+
+  .btn-login {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+
+/* ChatBot */
+#chat-container {
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: height 0.3s;
+    background-color: #fff; /* Fondo blanco detrás del chat */
+    display: flex;
+    flex-direction: column;
+    height: 60px; /* Altura inicial para ocultar completamente */
+  }
+
+  #chat-header {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    flex-shrink: 0;
+  }
+
+  #chat-body {
+    flex-grow: 1;
+    overflow-y: auto;
+    padding: 10px;
+    display: none; /* Ocultar el cuerpo del chat inicialmente */
+  }
+
+  #chat-input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-top: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: #fff; /* Fondo blanco para el input */
+    flex-shrink: 0;
+  }
+
+  .message-Tu {
+    color: #007bff;
+  }
+
+  .message-Asistente {
+    color: #030303;
+  }
